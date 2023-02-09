@@ -1,0 +1,118 @@
+@import url('https://.fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900;&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Work Sans';
+}
+
+body{
+  width: 100%;
+  position: relative;
+  display: flex;
+  background: #FBFBFB;
+}
+
+#login-page{
+  background: #fff;
+  margin: 7rem;
+  box-shadow: 0px 15px 90px rgba(0, 0, 0, 0.03);
+  margin: 5rem;
+}
+
+.sidebar{
+  display: flex;
+}
+
+.sidebar img{
+  width: 400px;
+  height: 200px;
+  margin-left: 67px;
+  margin-right: 60px;
+  margin-top: 60px;
+}
+
+.sidebar h2 img{
+  width: 160px;
+  height: 40px;
+  margin-left: 60px;
+  margin-top: 60px;
+
+}
+
+.container{
+  margin: auto;
+  max-width: 90%;
+  width: 500px;
+  height: 500px;
+}
+
+.container form{
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  box-shadow: opx 15px 90px rgba(0, 0, 0, 0.03);
+  background: #fff;
+}
+
+.container form h1{
+  color: #213f7d;
+  margin-top: 80px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 54.64px;
+  margin-left: 40px;
+  font-family: 'Avenir Next';
+}
+.container h5{
+  height: 28px;
+  line-height: 27px;
+  width: 80%;
+  margin-bottom: 20px;
+  margin-left: 40px;
+  font-size: 20px;
+  color: #545f7d;
+}
+
+
+.container input{
+  margin: 10px 0 18px 0;
+  height: 50px;
+  padding: 0 10px;
+  width: 80%;
+  justify-content: flex-start;
+  border-color: rgba(171, 171, 171, 0.323);
+  border-radius: 5px;
+  border: 1px solid rgba(84, 95, 125, 0.15);
+  margin-left: 40px;
+}
+
+.forget p{
+  margin-left: 40px;
+  color: #39cdcc;
+  margin-bottom: 20px;
+  line-height: 16px;
+  font-size: 12px;
+  font-family: 'Avenir Next';
+  text-transform: uppercase;
+}
+.btn9{
+  background: rgba(118, 244, 246);
+  width: 80%;
+  border: none;
+  margin-left: 40px;
+  border-radius: 5px;
+  margin: 10px 0 18px 0;
+  padding: 0 10px;
+  height: 48px;
+  color: #fff;
+}
+
+.btn9 a{
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+}
+
+

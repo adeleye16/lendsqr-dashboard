@@ -1,0 +1,256 @@
+@import url('https://.fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900;&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Work Sans';
+}
+
+body{
+  width: 100px;
+  position: relative;
+  display: flex;
+  background: #fbfbfb;
+}
+
+#menu{
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.04);
+  width: 283px;
+  height: 100px;
+  background: #fff;
+}
+
+#menu h6{
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+}
+
+#menu .logo{
+  display: flex;
+  align-items: center;
+  padding: 30px 0 0 30px;
+}
+
+#menu .logo img{
+  width: 160px;
+  height: 40px;
+  margin-right: 15px;
+}
+
+#menu .items li{
+  list-style: none;
+  padding: 8px 0;
+  transition: 0.3s ease;
+}
+
+#menu .items li:hover{
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+#menu .items li:nth-child(4){
+  border-left: 5px solid #39cdcc;
+  background: #39cdcd0a;
+  margin-left: 0;
+}
+
+#menu ,.items li span{
+  color: #213f7d;
+  height: 30px;
+  line-height: 30px;
+  font-size: 14px;
+  margin: 0 10px 0 20px;
+}
+
+#menu .items li:hover span,
+#menu .items:hover a {
+  color: #213f7d;
+}
+
+#menu .items li a {
+  text-decoration: none;
+  font-weight: 300px;
+  transition: 0.3s ease;
+}
+
+.items h6{
+  width: 75px;
+  height: 14px;
+  font-size: 12px;
+  line-height: 14px;
+  font-style: normal;
+  color: #545f7d;
+  margin-left: 30px;
+}
+
+/* sidebar end  */
+
+/* nav :start */
+#interface{
+  width: calc(100% - 100px);
+}
+
+#interface .navigation{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  background: #fff;
+  padding: 15px 30px;
+  box-shadow: 3px 0px 20px rgba(0, 0, 0, 0.04);
+}
+
+.search input{
+  border: 1px solid #21407d21;
+  width: 400px;
+  height: 40px;
+  background: #fff;
+  border-radius: 8px 0 0 8px;
+  outline: none;
+  padding: 15px;
+  margin-left: 80px;
+  font-size: 14px;
+  justify-content: center;
+  transform: translate(1%, 34%);
+}
+
+.search span{
+  background: #39cdcc;
+  color: white;
+  padding: 10px 14px;
+  width: 56px;
+  height: 40px;
+  border: 1px solid #39cdcc;
+  text-align: center;
+  border-radius: 0 8px 8px 0;
+  transform: translate(857%, -65%);
+}
+
+.profile{
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+  border-radius: 50%;
+  
+}
+
+.i-name1{
+  transform: translate(8%, 225%);
+  color: #545f7d;
+}
+
+.i-name{
+  color: #213f7d;
+  font-weight: 500;
+  font-size: 24px;
+  margin-top: 60px;
+  margin-left: 60px;
+  font-style: normal;
+  width: 66px;
+  height: 28px;
+  left: 343;
+  display: flex;
+}
+
+.i-name a button{
+  background: red;
+  transform: translate(340%, -9%);
+  margin: 0.4rem;
+}
+
+.i-name .btn7{
+  width: 170px;
+  height: 40px;
+  border-radius: 8px;
+  border: 1px solid #E4033b;
+  background: transparent;
+}
+
+.i-name .btn8{
+  width: 170px;
+  height: 40px;
+  border-radius: #39cdcc;
+  background: transparent;
+}
+
+.values{
+  width: 100%;
+  display: flex;
+  margin-left: 60px;
+  margin-top: 40px;
+  gap: 30px;
+  align-items: center;
+}
+
+.val-box{
+  background: #fff;
+  box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.04);
+  width: 440px;
+  height: 180px;
+  border-radius: 4px;
+  padding: 16px 150px 70px 16px;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.val-box span{
+  background: #e018ff23;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  font-size: 19px;
+  color: #df18ff;
+}
+
+.val-box h2{
+  font-size: 14px;
+  color: #545f7dc4;
+  margin-top: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  line-height: 16px;
+  height: 16px;
+}
+
+.val-box h3{
+  height: 28px;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 28px;
+  color: #213f7d;
+  margin-top: 14px;
+  cursor: pointer;
+}
+
+/* TABLE START  */
+
+.table-box{
+  width: 100%;
+  height: 640px;
+  margin-left: 60px;
+  transform: translate(56%, 69%);
+  margin-top: 40px;
+  border: 1px solid rgba(33, 63, 125, 0.06);
+  background: #fff;
+  border-radius: 4px;
+  box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.04);
+}
+
+.table-box .table{
+  width: 100%;
+  height: 640px;
+  justify-content: left;
+  align-items: flex-start;
+  padding: 30px;
+}
+
+.table-box thead{
+  width: 90px;
+  
+}
+
+
+
